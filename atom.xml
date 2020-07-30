@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://1996smile.github.io/</id>
     <title>叶子的温暖小窝</title>
-    <updated>2020-07-30T08:54:34.228Z</updated>
+    <updated>2020-07-30T08:58:45.895Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://1996smile.github.io/"/>
     <link rel="self" href="http://1996smile.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>http://1996smile.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 叶子的温暖小窝</rights>
     <entry>
-        <title type="html"><![CDATA[**Ubuntu 各版本代号简介**]]></title>
+        <title type="html"><![CDATA[Ubuntu 各版本代号简介]]></title>
         <id>http://1996smile.github.io/post/ubuntu-ge-ban-ben-dai-hao-jian-jie/</id>
         <link href="http://1996smile.github.io/post/ubuntu-ge-ban-ben-dai-hao-jian-jie/">
         </link>
@@ -31,7 +31,7 @@
 <p># cat /proc/version</p>
 <p># uname -a</p>
 <p># lsb_release -a</p>
-<figure data-type="image" tabindex="1"><img src="C:%5CUsers%5CYE%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200605105658113.png" alt="image-20200605105658113" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="http://1996smile.github.io//post-images/1596099474043.png" alt="" loading="lazy"></figure>
 <h3 id="三-ubuntu历史版本与代号一览">三、<strong>Ubuntu历史版本与代号一览</strong></h3>
 <p>Ubuntu 发布版本的官方名称是 Ubuntu X.YY ，其中 X 表示年份（减去2000），YY 表示发布的月份。</p>
 <p>Ubuntu 没有像其它软件一样有 1.0 版本，是因为其第一个版本是发布于 2004 年。所以Ubuntu的生日是10月20日。</p>
