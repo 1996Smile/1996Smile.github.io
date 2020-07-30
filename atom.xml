@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://1996smile.github.io/</id>
+    <id>https://1996smile.github.io/</id>
     <title>叶子的温暖小窝</title>
-    <updated>2020-07-30T09:11:17.496Z</updated>
+    <updated>2020-07-30T09:22:05.878Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://1996smile.github.io/"/>
-    <link rel="self" href="http://1996smile.github.io/atom.xml"/>
+    <link rel="alternate" href="https://1996smile.github.io/"/>
+    <link rel="self" href="https://1996smile.github.io/atom.xml"/>
     <subtitle>好好学习，天天向上</subtitle>
-    <logo>http://1996smile.github.io/images/avatar.png</logo>
-    <icon>http://1996smile.github.io/favicon.ico</icon>
+    <logo>https://1996smile.github.io/images/avatar.png</logo>
+    <icon>https://1996smile.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 叶子的温暖小窝</rights>
     <entry>
         <title type="html"><![CDATA[Ubuntu 各版本代号简介]]></title>
-        <id>http://1996smile.github.io/post/ubuntu-ge-ban-ben-dai-hao-jian-jie/</id>
-        <link href="http://1996smile.github.io/post/ubuntu-ge-ban-ben-dai-hao-jian-jie/">
+        <id>https://1996smile.github.io/post/ubuntu-ge-ban-ben-dai-hao-jian-jie/</id>
+        <link href="https://1996smile.github.io/post/ubuntu-ge-ban-ben-dai-hao-jian-jie/">
         </link>
         <updated>2020-07-30T08:53:56.000Z</updated>
         <content type="html"><![CDATA[<h1 id="ubuntu-各版本代号简介"><strong>Ubuntu 各版本代号简介</strong></h1>
@@ -31,7 +31,7 @@
 <p># cat /proc/version</p>
 <p># uname -a</p>
 <p># lsb_release -a</p>
-<figure data-type="image" tabindex="1"><img src="http://1996smile.github.io//post-images/1596099474043.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://1996smile.github.io//post-images/1596099474043.png" alt="" loading="lazy"></figure>
 <h3 id="三-ubuntu历史版本与代号一览">三、<strong>Ubuntu历史版本与代号一览</strong></h3>
 <p>Ubuntu 发布版本的官方名称是 Ubuntu X.YY ，其中 X 表示年份（减去2000），YY 表示发布的月份。</p>
 <p>Ubuntu 没有像其它软件一样有 1.0 版本，是因为其第一个版本是发布于 2004 年。所以Ubuntu的生日是10月20日。</p>
@@ -197,8 +197,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[mjpeg-strearmer移植]]></title>
-        <id>http://1996smile.github.io/post/mjpeg-strearmer-yi-zhi/</id>
-        <link href="http://1996smile.github.io/post/mjpeg-strearmer-yi-zhi/">
+        <id>https://1996smile.github.io/post/mjpeg-strearmer-yi-zhi/</id>
+        <link href="https://1996smile.github.io/post/mjpeg-strearmer-yi-zhi/">
         </link>
         <updated>2020-07-30T08:36:05.000Z</updated>
         <content type="html"><![CDATA[<h1 id="一-mjpeg-strearmer移植">一、mjpeg-strearmer移植</h1>
@@ -215,8 +215,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>http://1996smile.github.io/post/hello-gridea/</id>
-        <link href="http://1996smile.github.io/post/hello-gridea/">
+        <id>https://1996smile.github.io/post/hello-gridea/</id>
+        <link href="https://1996smile.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
