@@ -1,29 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="https://1996smile.github.io//media/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://1996smile.github.io//media/css/live2d.css">
-    <link rel="stylesheet" href="https://1996smile.github.io//styles/main.css">
-    <meta name="description" content="好好学习，天天向上" />
-    <title>叶子的温暖小窝</title>
-</head>
 <style>
-    @media screen and (max-width: 1300px) {
-        .archives-content ul li>span {
-            display: none;
-        }
-
-        .archives-content ul {
-            padding: 0px;
-        }
+    a {
+        text-decoration: none;
     }
 </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://1996smile.github.io//media/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://1996smile.github.io//media/css/live2d.css">
+<link rel="stylesheet" href="https://1996smile.github.io//styles/main.css">
+<title>标签-叶子的温暖小窝</title>
+
 
 <body>
     <!-- 响应式布局，针对PC端内容显示 -->
@@ -173,70 +163,98 @@
             alert("博主暂未设置QQ联系方式");
     }
 </script></div>
+                <div id="main" class="col-xs-12 col-sm-7">
+                    <style>
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        /*��ʼ״̬ ͸����Ϊ0*/
+        40% {
+            opacity: 0;
+        }
+
+        /*����״̬ ͸����Ϊ0*/
+        100% {
+            opacity: 1;
+        }
+
+        /*����״̬ ͸����Ϊ1*/
+    }
+
+    @-webkit-keyframes fade-in {
+
+        /*���webkit�ں�*/
+        0% {
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .postimage {
+        width: 100%;
+    }
+
+    .tag-container {
+        min-height: 100vh;
+        animation: fade-in;
+        /*��������*/
+        animation-duration: 1s;
+        /*��������ʱ��*/
+        -webkit-animation: fade-in 1s;
+        /*���webkit�ں�*/
+    }
+
+    @media screen and (max-width:1300px) {
+        .tag-container {
+            margin-top: 100px;
+            animation: fade-in;
+            /*��������*/
+            animation-duration: 1s;
+            /*��������ʱ��*/
+            -webkit-animation: fade-in 1s;
+            /*���webkit�ں�*/
+        }
+    }
+</style>
+<link rel="stylesheet" href="https://1996smile.github.io//media/css/font-awesome.css">
+<div class="tag-container">
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://1996smile.github.io//post-images/ubuntu.jpg" class="postimage"
+                onclick="window.location.href= 'https://1996smile.github.io/post/ubuntu/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://1996smile.github.io/post/ubuntu/';return false">
+                    Ubuntu 各版本代号简介
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-07-30</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 4 min read</div>
+            <div class="posttag">
                 
-                <div id="main" class="col-xs-12 col-sm-7" style="width:50%;margin-top:50px;left:27%">
-                    <body">
-    <div class="archives-content">
-        
-        
-        <div class="archives-year">2020</div>
-        <ul>
-            
-            
-            <li><span></span>
-                <div>
-                  <a href="https://1996smile.github.io/post/ubuntu/" class="post">
-                    <div class="archives-title">Ubuntu 各版本代号简介</div>
-                    <div class="archives-time">2020-07-30</div>
+                <a href="https://1996smile.github.io/tag/tags/" class="postlink">
+                    <i class="fa fa-tag"></i> 生活
                 </a>
-                    
-                </div>
-                <!-- 2020-07-30 -->
-            </li>
-            
-            
-            
-            <li><span></span>
-                <div>
-                  <a href="https://1996smile.github.io/post/mjpeg-strearmer-yi-zhi/" class="post">
-                    <div class="archives-title">mjpeg-strearmer移植</div>
-                    <div class="archives-time">2020-07-30</div>
-                </a>
-                    
-                </div>
-                <!-- 2020-07-30 -->
-            </li>
-            
-            
-            
-            
-        </ul>
+                
+            </div>
+        </div>
         
-        <div class="archives-year">2018</div>
-        <ul>
-            
-            
-            
-            
-            
-            
-            <li><span></span>
-                <div>
-                  <a href="https://1996smile.github.io/post/hello-gridea/" class="post">
-                    <div class="archives-title">Hello Gridea</div>
-                    <div class="archives-time">2018-12-12</div>
-                </a>
-                    
-                </div>
-                <!-- 2018-12-12 -->
-            </li>
-            
-            
-        </ul>
-        
-    </div>
-</body">
-                    <div style="background:white">
+</div>
+
+</div>
+                    <div>
                         <div class="pagi">
     <ul>
         
@@ -284,18 +302,17 @@
                         <div style="padding-bottom:10%"></div>
                     </div>
                 </div>
-                
                 <div class="col-xs-6 col-sm-2"></div>
             </div>
         </div>
         <div id="bg">
         </div>
-        <div id="bgchoice" style="display: none">
-            </div>
-            
-            <div id="bgurl" style="display:none"></div>
-               
+        <div id="bgchoice" style="display: none"></div>
+        
+        <div id="bgurl" style="display:none"></div>
+           
     </div>
+
 
     <!-- 响应式布局，针对手机端内容显示 -->
     <div class="nav-small">
@@ -393,82 +410,111 @@
   }
   </script> 
 </body>
-            <div style="margin-top:60px"></div>
-            <body">
-    <div class="archives-content">
+        <div style="margin-top:50px"></div>
+        <style>
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        /*��ʼ״̬ ͸����Ϊ0*/
+        40% {
+            opacity: 0;
+        }
+
+        /*����״̬ ͸����Ϊ0*/
+        100% {
+            opacity: 1;
+        }
+
+        /*����״̬ ͸����Ϊ1*/
+    }
+
+    @-webkit-keyframes fade-in {
+
+        /*���webkit�ں�*/
+        0% {
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .postimage {
+        width: 100%;
+    }
+
+    .tag-container {
+        min-height: 100vh;
+        animation: fade-in;
+        /*��������*/
+        animation-duration: 1s;
+        /*��������ʱ��*/
+        -webkit-animation: fade-in 1s;
+        /*���webkit�ں�*/
+    }
+
+    @media screen and (max-width:1300px) {
+        .tag-container {
+            margin-top: 100px;
+            animation: fade-in;
+            /*��������*/
+            animation-duration: 1s;
+            /*��������ʱ��*/
+            -webkit-animation: fade-in 1s;
+            /*���webkit�ں�*/
+        }
+    }
+</style>
+<link rel="stylesheet" href="https://1996smile.github.io//media/css/font-awesome.css">
+<div class="tag-container">
+    
+    <div class="postshow">
         
-        
-        <div class="archives-year">2020</div>
-        <ul>
-            
-            
-            <li><span></span>
-                <div>
-                  <a href="https://1996smile.github.io/post/ubuntu/" class="post">
-                    <div class="archives-title">Ubuntu 各版本代号简介</div>
-                    <div class="archives-time">2020-07-30</div>
-                </a>
-                    
+        <div id="post" style="width:100%">
+            <img src="https://1996smile.github.io//post-images/ubuntu.jpg" class="postimage"
+                onclick="window.location.href= 'https://1996smile.github.io/post/ubuntu/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://1996smile.github.io/post/ubuntu/';return false">
+                    Ubuntu 各版本代号简介
                 </div>
-                <!-- 2020-07-30 -->
-            </li>
-            
-            
-            
-            <li><span></span>
-                <div>
-                  <a href="https://1996smile.github.io/post/mjpeg-strearmer-yi-zhi/" class="post">
-                    <div class="archives-title">mjpeg-strearmer移植</div>
-                    <div class="archives-time">2020-07-30</div>
-                </a>
-                    
-                </div>
-                <!-- 2020-07-30 -->
-            </li>
-            
-            
-            
-            
-        </ul>
-        
-        <div class="archives-year">2018</div>
-        <ul>
-            
-            
-            
-            
-            
-            
-            <li><span></span>
-                <div>
-                  <a href="https://1996smile.github.io/post/hello-gridea/" class="post">
-                    <div class="archives-title">Hello Gridea</div>
-                    <div class="archives-time">2018-12-12</div>
-                </a>
-                    
-                </div>
-                <!-- 2018-12-12 -->
-            </li>
-            
-            
-        </ul>
-        
-    </div>
-</body">
-            <div class="pagination-container">
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-07-30</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 4 min read</div>
+            <div class="posttag">
                 
+                <a href="https://1996smile.github.io/tag/tags/" class="postlink">
+                    <i class="fa fa-tag"></i> 生活
+                </a>
                 
             </div>
-            <div style="margin-bottom:60px">&nbsp;</div>
         </div>
-        <div id="landlord">
-            <div class="message" style="opacity:0"></div>
-            <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+        
+</div>
+
+</div>
+        <div class="pagination-container">
+            
+            
         </div>
-        <div id="domainname" style="display:none">https://1996smile.github.io/</div>
+    </div>
+    <div id="landlord">
+        <div class="message" style="opacity:0"></div>
+        <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+    </div>
+    <div id="domainname" style="display:none">https://1996smile.github.io/</div>
 </body>
 
 </html>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 
 
 <script>
