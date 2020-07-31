@@ -92,7 +92,7 @@
                   
                 <li><a href="https://1996smile.github.io//friends" style="color:white">友链</a></li>
                 
-                  <li><img src="https://1996smile.github.io//images/avatar.png?v=1596180346253" alt=""
+                  <li><img src="https://1996smile.github.io//images/avatar.png?v=1596181274374" alt=""
                 class="menutopavatar"></li>
             </ul>
         </div><!-- /.navbar-collapse -->
@@ -261,7 +261,7 @@
     <div class="postshow">
         
         <div id="post" style="width:100%">
-            <img src="https://1996smile.github.io//post-images/ubuntu.jpg" class="postimage"
+            <img src="https://ericamblog.oss-cn-shanghai.aliyuncs.com/2020/springboot-ji-chu-zhi-nan.jpg" class="postimage"
                 onclick="window.location.href= 'https://1996smile.github.io/post/ubuntu/';return false">
             <div class="posttitlebox">
                 <div class="posttitle" onclick="window.location.href= 'https://1996smile.github.io/post/ubuntu/';return false">
@@ -286,7 +286,7 @@
     <div class="postshow">
         
         <div id="post" style="width:100%">
-            <img src="https://1996smile.github.io//post-images/mjpeg-strearmer-yi-zhi.jpg" class="postimage"
+            <img src="https://ericamblog.oss-cn-shanghai.aliyuncs.com/2020/git-ming-ling-xing-ri-chang-zhi-ling.jpg" class="postimage"
                 onclick="window.location.href= 'https://1996smile.github.io/post/mjpeg-strearmer-yi-zhi/';return false">
             <div class="posttitlebox">
                 <div class="posttitle" onclick="window.location.href= 'https://1996smile.github.io/post/mjpeg-strearmer-yi-zhi/';return false">
@@ -307,7 +307,7 @@
     <div class="postshow">
         
         <div id="post" style="width:100%">
-            <img src="https://1996smile.github.io//post-images/hello-gridea.png" class="postimage"
+            <img src="https://ericamblog.oss-cn-shanghai.aliyuncs.com/2020/about/v2-904505bcf0c424788f6028b8952aa2e7_720w.jpg" class="postimage"
                 onclick="window.location.href= 'https://1996smile.github.io/post/hello-gridea/';return false">
             <div class="posttitlebox">
                 <div class="posttitle" onclick="window.location.href= 'https://1996smile.github.io/post/hello-gridea/';return false">
@@ -390,7 +390,19 @@
 <body>
     <div style="width:100%;height:130px;padding:15px">
         
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        <div id="vistornum" style="margin:0">
+            <span id="busuanzi_container_site_uv">
+                🎈总访问量:<span id="busuanzi_value_site_pv"></span>&nbsp;&nbsp;|&nbsp;&nbsp;
+                🙍‍访问人数:<span id="busuanzi_value_site_uv"></span>
+            </span>
+        </div>
+        
 
+        
+        <div id="sitegotimeDate">载入天数...</div>
+        <div id="sitegotimes">载入时分秒...</div>
+        <div id="cussitetime" style="display:none">02/02/2020</div>
         
         <div id="footinfo"> | Theme: <a
             href="https://github.com/850552586/gridea-theme-fog">Fog</a>
@@ -401,6 +413,37 @@
     </div>
 </body>
 
+<script>
+    //----------------------站点运行时间
+    var now = new Date();
+
+    function createtime() {
+        var sitegotime = document.getElementById("cussitetime").innerHTML + " 00:00:00";
+        var grt = new Date(sitegotime); //此处修改你的建站时间或者网站上线时间 
+        now.setTime(now.getTime() + 250);
+        days = (now - grt) / 1000 / 60 / 60 / 24;
+        dnum = Math.floor(days);
+        hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
+        hnum = Math.floor(hours);
+        if (String(hnum).length == 1) {
+            hnum = "0" + hnum;
+        }
+        minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes);
+        if (String(mnum).length == 1) {
+            mnum = "0" + mnum;
+        }
+        seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds);
+        if (String(snum).length == 1) {
+            snum = "0" + snum;
+        }
+        document.getElementById("sitegotimeDate").innerHTML = "本站已安全运行 " + dnum + " 天 ";
+        document.getElementById("sitegotimes").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+    setInterval("createtime()", 250);
+</script>
+
                 
     </div>
     <div id="bg">
@@ -408,7 +451,7 @@
     <div id="bgchoice" style="display: none">
             </div>
             
-            <div id="bgurl" style="display:none">https://ericamblog.oss-cn-shanghai.aliyuncs.com/2020/django-kai-fa-ge-ren-bo-ke-xi-tong.png</div>
+            <div id="bgurl" style="display:none">https://ericamblog.oss-cn-shanghai.aliyuncs.com/GrideaFog/custom-postdefaultimage.png</div>
               
     <!-- 响应式布局，针对手机端内容显示 -->
     <div class="nav-small">
@@ -512,7 +555,7 @@
             <!-- 移动端欢迎页 -->
 <div class="welcome">
     <div class="avatar-border">
-        <img src="https://1996smile.github.io//images/avatar.png?v=1596180346253" class="avatar">
+        <img src="https://1996smile.github.io//images/avatar.png?v=1596181274374" class="avatar">
     </div>
     <span class="mobiledescribtion"></span>
 </div>
@@ -591,7 +634,7 @@
     <div class="postshow">
         
         <div id="post" style="width:100%">
-            <img src="https://1996smile.github.io//post-images/ubuntu.jpg" class="postimage"
+            <img src="https://ericamblog.oss-cn-shanghai.aliyuncs.com/2020/springboot-ji-chu-zhi-nan.jpg" class="postimage"
                 onclick="window.location.href= 'https://1996smile.github.io/post/ubuntu/';return false">
             <div class="posttitlebox">
                 <div class="posttitle" onclick="window.location.href= 'https://1996smile.github.io/post/ubuntu/';return false">
@@ -616,7 +659,7 @@
     <div class="postshow">
         
         <div id="post" style="width:100%">
-            <img src="https://1996smile.github.io//post-images/mjpeg-strearmer-yi-zhi.jpg" class="postimage"
+            <img src="https://ericamblog.oss-cn-shanghai.aliyuncs.com/2020/git-ming-ling-xing-ri-chang-zhi-ling.jpg" class="postimage"
                 onclick="window.location.href= 'https://1996smile.github.io/post/mjpeg-strearmer-yi-zhi/';return false">
             <div class="posttitlebox">
                 <div class="posttitle" onclick="window.location.href= 'https://1996smile.github.io/post/mjpeg-strearmer-yi-zhi/';return false">
@@ -637,7 +680,7 @@
     <div class="postshow">
         
         <div id="post" style="width:100%">
-            <img src="https://1996smile.github.io//post-images/hello-gridea.png" class="postimage"
+            <img src="https://ericamblog.oss-cn-shanghai.aliyuncs.com/2020/about/v2-904505bcf0c424788f6028b8952aa2e7_720w.jpg" class="postimage"
                 onclick="window.location.href= 'https://1996smile.github.io/post/hello-gridea/';return false">
             <div class="posttitlebox">
                 <div class="posttitle" onclick="window.location.href= 'https://1996smile.github.io/post/hello-gridea/';return false">
