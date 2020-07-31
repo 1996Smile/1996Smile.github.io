@@ -1,15 +1,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="👏  欢迎使用 Gridea ！
-✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
+    <meta name="description" content="一、mjpeg-strearmer移植
+1、开发环境
 
-Github
-Gridea 主页
-示例网站
-特性👇
-📝  你可以使用最酷的 Markdo..." />
-    <meta name="keywords" content="Gridea" />
+主机环境： ubuntu 16.04 LTS
+目标机：Cortex-A9
+主机工具链：gcc-4.6.4
+交叉工具链：arm-none-linux-guneabi-
+摄像头：USB摄像..." />
+    <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://1996smile.github.io//media/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://1996smile.github.io//styles/main.css">
     
@@ -298,61 +298,53 @@ Gridea 主页
         <div class="postshow">
             
             <div class="postdetailimg" style="width:100%;overflow: hidden;display: none">
-                <img src="https://ericamblog.oss-cn-shanghai.aliyuncs.com/2020/about/v2-904505bcf0c424788f6028b8952aa2e7_720w.jpg" class="postimage" style="cursor:auto">
+                <img src="https://ericamblog.oss-cn-shanghai.aliyuncs.com/2020/git-ming-ling-xing-ri-chang-zhi-ling.jpg" class="postimage" style="cursor:auto">
             </div>
             <div class="postinfo-detail">
-                <div class="postdate"><i class="fa fa-calendar"></i>2018-12-12</div>
-                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 2 min read</div>
+                <div class="postdate"><i class="fa fa-calendar"></i>2020-07-30</div>
+                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
                 <div class="posttag">
-                    
-                    <a href="https://1996smile.github.io/tag/w96P1Wtjf/" class="postlink">
-                        <i class="fa fa-tag"></i> Gridea
-                    </a>
                     
                 </div>
             </div>
             
         <div id="texttitle" style="text-align: center">
-            <h2>Hello Gridea</h2>
+            <h2>mjpeg-strearmer移植</h2>
             <!-- id 将作为查询条件 -->
-            <div id="pl" style="display:none">https://1996smile.github.io/post/hello-gridea/</div>
+            <div id="pl" style="display:none">https://1996smile.github.io/post/mjpeg-strearmer移植/</div>
             <div id="rootaddr" style="display:none">https://1996smile.github.io/</div>
-            <span id="hotnum" class="leancloud_visitors" data-flag-title="Hello Gridea">
+            <span id="hotnum" class="leancloud_visitors" data-flag-title="mjpeg-strearmer移植">
                 <h4 class="readercount">热度🔥: <i class="leancloud-visitors-count">loading...</i></h4>
             </span>
         </div>
         <div class="text ">
-            <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+            <h1 id="一-mjpeg-strearmer移植">一、mjpeg-strearmer移植</h1>
+<h2 id="1-开发环境">1、开发环境</h2>
+<blockquote>
+<h4 id="主机环境-ubuntu-1604-lts">主机环境： ubuntu 16.04 LTS</h4>
+<h4 id="目标机cortex-a9">目标机：Cortex-A9</h4>
+<h4 id="主机工具链gcc-464">主机工具链：gcc-4.6.4</h4>
+<h4 id="交叉工具链arm-none-linux-guneabi-">交叉工具链：arm-none-linux-guneabi-</h4>
+<h4 id="摄像头usb摄像头支持uvc">摄像头：USB摄像头（支持UVC）</h4>
+</blockquote>
+<p>mjpg-streamer</p>
 
         </div>
         
         <div class="prev-post">
             上一篇
-            <a href="https://1996smile.github.io/post/mjpeg-strearmer移植/">
-                mjpeg-strearmer移植
+            <a href="https://1996smile.github.io/post/ubuntu/">
+                Ubuntu 各版本代号简介
             </a>
         </div>
         
+        
+        <div class="next-post">
+            下一篇
+            <a href="https://1996smile.github.io/post/hello-gridea/">
+                Hello Gridea
+            </a>
+        </div>
         
     </div>
     </div>
@@ -465,9 +457,18 @@ Gridea 主页
      
                 <div class="toc-container">
                     <ul class="markdownIt-TOC">
-<li>
+<li><a href="#%E4%B8%80-mjpeg-strearmer%E7%A7%BB%E6%A4%8D">一、mjpeg-strearmer移植</a>
 <ul>
-<li><a href="#%E7%89%B9%E6%80%A7">特性👇</a></li>
+<li><a href="#1-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83">1、开发环境</a><br>
+*
+<ul>
+<li><a href="#%E4%B8%BB%E6%9C%BA%E7%8E%AF%E5%A2%83-ubuntu-1604-lts">主机环境： ubuntu 16.04 LTS</a></li>
+<li><a href="#%E7%9B%AE%E6%A0%87%E6%9C%BAcortex-a9">目标机：Cortex-A9</a></li>
+<li><a href="#%E4%B8%BB%E6%9C%BA%E5%B7%A5%E5%85%B7%E9%93%BEgcc-464">主机工具链：gcc-4.6.4</a></li>
+<li><a href="#%E4%BA%A4%E5%8F%89%E5%B7%A5%E5%85%B7%E9%93%BEarm-none-linux-guneabi-">交叉工具链：arm-none-linux-guneabi-</a></li>
+<li><a href="#%E6%91%84%E5%83%8F%E5%A4%B4usb%E6%91%84%E5%83%8F%E5%A4%B4%E6%94%AF%E6%8C%81uvc">摄像头：USB摄像头（支持UVC）</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -597,61 +598,53 @@ Gridea 主页
         <div class="postshow">
             
             <div class="postdetailimg" style="width:100%;overflow: hidden;display: none">
-                <img src="https://ericamblog.oss-cn-shanghai.aliyuncs.com/2020/about/v2-904505bcf0c424788f6028b8952aa2e7_720w.jpg" class="postimage" style="cursor:auto">
+                <img src="https://ericamblog.oss-cn-shanghai.aliyuncs.com/2020/git-ming-ling-xing-ri-chang-zhi-ling.jpg" class="postimage" style="cursor:auto">
             </div>
             <div class="postinfo-detail">
-                <div class="postdate"><i class="fa fa-calendar"></i>2018-12-12</div>
-                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 2 min read</div>
+                <div class="postdate"><i class="fa fa-calendar"></i>2020-07-30</div>
+                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
                 <div class="posttag">
-                    
-                    <a href="https://1996smile.github.io/tag/w96P1Wtjf/" class="postlink">
-                        <i class="fa fa-tag"></i> Gridea
-                    </a>
                     
                 </div>
             </div>
             
         <div id="texttitle" style="text-align: center">
-            <h2>Hello Gridea</h2>
+            <h2>mjpeg-strearmer移植</h2>
             <!-- id 将作为查询条件 -->
-            <div id="pl" style="display:none">https://1996smile.github.io/post/hello-gridea/</div>
+            <div id="pl" style="display:none">https://1996smile.github.io/post/mjpeg-strearmer移植/</div>
             <div id="rootaddr" style="display:none">https://1996smile.github.io/</div>
-            <span id="hotnum" class="leancloud_visitors" data-flag-title="Hello Gridea">
+            <span id="hotnum" class="leancloud_visitors" data-flag-title="mjpeg-strearmer移植">
                 <h4 class="readercount">热度🔥: <i class="leancloud-visitors-count">loading...</i></h4>
             </span>
         </div>
         <div class="text ">
-            <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+            <h1 id="一-mjpeg-strearmer移植">一、mjpeg-strearmer移植</h1>
+<h2 id="1-开发环境">1、开发环境</h2>
+<blockquote>
+<h4 id="主机环境-ubuntu-1604-lts">主机环境： ubuntu 16.04 LTS</h4>
+<h4 id="目标机cortex-a9">目标机：Cortex-A9</h4>
+<h4 id="主机工具链gcc-464">主机工具链：gcc-4.6.4</h4>
+<h4 id="交叉工具链arm-none-linux-guneabi-">交叉工具链：arm-none-linux-guneabi-</h4>
+<h4 id="摄像头usb摄像头支持uvc">摄像头：USB摄像头（支持UVC）</h4>
+</blockquote>
+<p>mjpg-streamer</p>
 
         </div>
         
         <div class="prev-post">
             上一篇
-            <a href="https://1996smile.github.io/post/mjpeg-strearmer移植/">
-                mjpeg-strearmer移植
+            <a href="https://1996smile.github.io/post/ubuntu/">
+                Ubuntu 各版本代号简介
             </a>
         </div>
         
+        
+        <div class="next-post">
+            下一篇
+            <a href="https://1996smile.github.io/post/hello-gridea/">
+                Hello Gridea
+            </a>
+        </div>
         
     </div>
     </div>
