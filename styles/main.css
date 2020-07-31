@@ -1534,3 +1534,20 @@ body {
     display: none;
   }
 }
+
+      .posttitlewithoutimg {
+        color: #495057;
+      }
+    
+        .posttitle {
+          color: #4263eb;
+        }
+      
+        #sitegotimeDate,#sitegotimes,#footinfo,#footinfo a{
+          color: #ae3ec9;
+        }
+      
+        .mobiledescribtion{
+          color: #ae3ec9;
+        }
+      
